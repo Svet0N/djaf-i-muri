@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="bg">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ветеринарна клиника „Джаф и Мъри“</title>
+		<meta
+			name="description"
+			content="Съвременна ветеринарна клиника в София. Прегледи, ваксинации, хирургия, профилактика и спешна помощ."
+		/>
+		<meta name="theme-color" content="#1b7d7a" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container nav">
+				<a class="brand" href="#home" aria-label="Джаф и Мъри начало">
+					<div class="brand-mark">ДМ</div>
+					<span class="brand-text">
+						<span class="brand-top">Ветеринарна клиника</span>
+						<span class="brand-bottom">„Джаф и Мъри“</span>
+					</span>
+				</a>
+				<nav class="nav-links" id="nav-links">
+					<a href="#home">Начало</a>
+					<a href="#about">За нас</a>
+					<a href="#services">Услуги</a>
+					<a href="#vet">Ветеринар</a>
+					<a href="#gallery">Галерия</a>
+				</nav>
+				<button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-label="Меню">
+					<span class="menu-label">Меню</span>
+					<span class="menu-icon" aria-hidden="true">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+				</button>
+				<div class="nav-actions">
+					<a class="btn btn-ghost" href="#contact">Свържи се с нас</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero" id="home">
+				<div class="container hero-grid">
+					<div class="fade-up">
+						<span class="tag">Доверие, грижа и модерна диагностика</span>
+						<h1>Любимците ви са в сигурни ръце.</h1>
+						<p>
+							„Джаф и Мъри“ е клиника от ново поколение, съчетаваща опит, емпатия и
+							високотехнологична медицина. Работим с нежност към животните и ясно
+							обяснение за стопаните.
+						</p>
+						<img
+							src="https://placehold.co/900x600?text=%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0"
+							alt="Снимка на клиниката"
+							loading="lazy"
+							class="hero-photo-mobile"
+						/>
+						<div class="hero-stats">
+							<div class="stat">
+								15+ години
+								<span>клиничен опит</span>
+							</div>
+							<div class="stat">
+								98% доверие
+								<span>от доволни стопани</span>
+							</div>
+							<div class="stat">
+								6 специалисти
+								<span>всеки ден на разположение</span>
+							</div>
+							<div class="stat">
+								30 мин
+								<span>реакция при спешен случай</span>
+							</div>
+						</div>
+					</div>
+					<div class="hero-card fade-up">
+						<img
+							src="https://placehold.co/900x600?text=%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0"
+							alt="Снимка на клиниката"
+							loading="lazy"
+							class="hero-photo"
+						/>
+					</div>
+					<div class="hero-actions">
+						<a class="btn btn-primary hero-primary" href="#appointment">Запази час</a>
+						<a class="btn btn-ghost hero-secondary" href="#services">Виж услуги</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="about">
+				<div class="container about-grid">
+					<div class="fade-up">
+						<h2 class="section-title">За нас</h2>
+						<p class="section-intro">
+							Клиниката „Джаф и Мъри“ е създадена с мисия да даде на животните
+							комплексна грижа, а на стопаните – спокойствие и увереност. Нашият
+							екип комбинира знанията на класическата ветеринарна медицина с
+							новите технологии за диагностика и лечение.
+						</p>
+						<div class="about-box">
+							<strong>Нашата мисия</strong>
+							<p>
+								Да изграждаме дългосрочна връзка на доверие, като предлагаме
+								превантивни програми, персонализирано лечение и постоянна подкрепа
+								при нужда.
+							</p>
+						</div>
+					</div>
+					<div class="cards fade-up">
+						<div class="card">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 2C7.6 2 4 5.5 4 9.8c0 2.6 1.3 4.9 3.3 6.5L12 22l4.7-5.7C18.7 14.7 20 12.4 20 9.8 20 5.5 16.4 2 12 2z" fill="#1b7d7a"/>
+								</svg>
+							</div>
+							<h3>Топло отношение</h3>
+							<p>Всяко животно получава индивидуално внимание и спокойна среда.</p>
+						</div>
+						<div class="card">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4 4h16v6H4V4zm0 10h10v6H4v-6z" stroke="#1b7d7a" stroke-width="2"/>
+								</svg>
+							</div>
+							<h3>Съвременна диагностика</h3>
+							<p>Лаборатория, ехография и дигитални изследвания в една визита.</p>
+						</div>
+						<div class="card">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7 7h10v10H7V7zm-3 3h3v4H4v-4zm13 0h3v4h-3v-4z" stroke="#1b7d7a" stroke-width="2"/>
+								</svg>
+							</div>
+							<h3>Сигурност и прозрачност</h3>
+							<p>Обясняваме стъпките, бюджета и лечението преди процедура.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="services">
+				<div class="container">
+					<h2 class="section-title">Услуги</h2>
+					<p class="section-intro">
+						Предлагаме пълна гама ветеринарни услуги – от профилактика до спешни
+						състояния. Всяка услуга се води от лекар, специализиран в областта.
+					</p>
+					<div class="cards">
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="12" cy="12" r="9" stroke="#1b7d7a" stroke-width="2" />
+									<path d="M12 7v5l3 3" stroke="#1b7d7a" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h3>Първични прегледи</h3>
+							<p>Подробни клинични прегледи и изготвяне на персонален план.</p>
+						</div>
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 2v20M2 12h20" stroke="#1b7d7a" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h3>Ваксинации и профилактика</h3>
+							<p>Изграждаме календар за ваксини и превенция според възрастта.</p>
+						</div>
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 5h14v14H5V5z" stroke="#1b7d7a" stroke-width="2" />
+									<path d="M8 12h8" stroke="#1b7d7a" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h3>Хирургия</h3>
+							<p>Стерилна операционна и анестезия с постоянен мониторинг.</p>
+						</div>
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 6l4 6-4 6-4-6 4-6z" fill="#1b7d7a" />
+								</svg>
+							</div>
+							<h3>Лабораторни изследвания</h3>
+							<p>Бързи резултати за кръв, урина и микроскопски тестове.</p>
+						</div>
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4 14h6l2 4 2-8 2 4h4" stroke="#1b7d7a" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h3>Спешна помощ</h3>
+							<p>Прием на спешни случаи с приоритет и ясно информиране.</p>
+						</div>
+						<div class="card fade-up">
+							<div class="icon-badge">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7 4h10v16H7V4z" stroke="#1b7d7a" stroke-width="2" />
+									<path d="M9 8h6M9 12h6M9 16h4" stroke="#1b7d7a" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h3>Профилактични програми</h3>
+							<p>Пакети за здравето на кучета, котки и екзотични любимци.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="vet">
+				<div class="container">
+					<h2 class="section-title">Ветеринар</h2>
+					<p class="section-intro">Запознайте се с ветеринарния лекар на клиниката.</p>
+					<div class="team-grid">
+						<div class="team-card fade-up vet-card">
+							<div class="vet-layout">
+								<div class="vet-info">
+									<h4>Д-р Николай Тодоров</h4>
+									<p>Ветеринарен лекар</p>
+									<div class="contact-list vet-details">
+										<div class="contact-item">
+											Образование
+											<span>Лесотехнически университет – София</span>
+										</div>
+										<div class="contact-item">
+											Опит
+											<span>X години</span>
+										</div>
+										<div class="contact-item">
+											Специализация
+											<span>вътрешни болести, хирургия, профилактика</span>
+										</div>
+									</div>
+								</div>
+								<div class="vet-media">
+									<img
+										src="https://placehold.co/600x400?text=%D0%92%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%80"
+										alt="Д-р Име Фамилия"
+										loading="lazy"
+										class="vet-photo"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="gallery">
+				<div class="container">
+					<h2 class="section-title">Галерия</h2>
+					<p class="section-intro">
+						Светла и спокойна среда за пациенти и стопани, създадена да намалява
+						стреса.
+					</p>
+					<div class="gallery-grid">
+						<div class="gallery-item fade-up">
+							<img
+								src="images/baby doggo.png"
+								alt="Куче на преглед"
+								loading="lazy"
+							/>
+						</div>
+						<div class="gallery-item fade-up">
+							<img
+								src="images/happy cat.png"
+								alt="Котка в клиниката"
+								loading="lazy"
+							/>
+						</div>
+						<div class="gallery-item fade-up">
+							<img
+								src="images/smiley cat.png"
+								alt="Операционна зала"
+								loading="lazy"
+							/>
+						</div>
+						<div class="gallery-item fade-up">
+							<img
+								src="images/waiting doggo.png"
+								alt="Ветеринарен екип"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cta-band" id="appointment">
+				<div class="container cta-grid">
+					<div>
+						<h2 class="cta-title">Готови ли сте за посещение?</h2>
+						<p class="cta-text">
+							Запазете час онлайн или се обадете, за да обсъдим нуждите на вашия любимец.
+						</p>
+					</div>
+					<div class="cta-actions">
+						<a class="btn btn-primary" href="tel:+35920000000">Обади се сега</a>
+						<a class="btn btn-ghost" href="mailto:hello@jaff-murry.bg">Изпрати имейл</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="contact">
+				<div class="container contact-grid">
+					<div class="contact-main">
+						<div class="contact-card fade-up">
+							<h2 class="section-title">Контакти</h2>
+							<p class="section-intro">
+								Спешна линия 24/7 • Планирани прегледи с предварително записване.
+							</p>
+							<div class="contact-list">
+								<div class="contact-item">
+									Адрес
+									<span>
+										<a href="https://maps.app.goo.gl/5L4fQC8unFm3JZBD8" target="_blank" rel="noopener">ж.к. Красно село, ул. „Пирински проход“ 24А, 1000 София</a>
+									</span>
+								</div>
+								<div class="contact-item">
+									Телефон
+									<span>+359 2 000 0000</span>
+								</div>
+								<div class="contact-item">
+									Имейл
+									<span>hello@jaff-murry.bg</span>
+								</div>
+								<div class="contact-item">
+									Социални мрежи
+									<span>
+										<a href="https://www.facebook.com/profile.php?id=100061153252042&sk=photos" target="_blank" rel="noopener">Facebook</a>
+										· <a href="viber://chat?number=+35920000000">Viber</a>
+									</span>
+								</div>
+							</div>
+							<div class="contact-actions">
+								<a class="btn btn-ghost toggle-cta" href="tel:+35920000000">Запази час</a>
+							</div>
+						</div>
+					</div>
+					<div class="contact-hours">
+						<div class="hours-block">
+							<h3>Работно време</h3>
+							<div class="hours-list">
+								<div class="hours-item">
+									<div class="hours-day">понеделник</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+									<div class="hours-time">15:00ч.–19:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">вторник</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+									<div class="hours-time">15:00ч.–19:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">сряда</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+									<div class="hours-time">15:00ч.–19:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">четвъртък</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+									<div class="hours-time">15:00ч.–19:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">петък</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+									<div class="hours-time">15:00ч.–19:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">събота</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+								</div>
+								<div class="hours-divider" aria-hidden="true"></div>
+								<div class="hours-item">
+									<div class="hours-day">неделя</div>
+									<div class="hours-time">10:00ч.–14:00ч.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container contact-map-center">
+					<div class="contact-map fade-up">
+						<iframe
+							class="map-frame"
+							title="Карта"
+							loading="lazy"
+							src="https://www.google.com/maps?q=42.6749949,23.2826808&z=16&output=embed"
+							referrerpolicy="no-referrer-when-downgrade"
+							allowfullscreen
+						></iframe>
+					</div>
+					<div class="contact-map-actions">
+						<a class="btn btn-primary" href="https://maps.app.goo.gl/5L4fQC8unFm3JZBD8" target="_blank" rel="noopener">Навигирай</a>
+					</div>
+				</div>
+				<div class="container contact-testimonials">
+					<div class="testimonials-block">
+						<h3>Мнения от Google Maps</h3>
+						<div class="testimonials-summary">
+							<span>Обща оценка 4.80</span>
+							<span class="summary-stars stars-45" aria-hidden="true">★★★★★</span>
+							<span>447 отзива</span>
+						</div>
+						<div class="testimonials-list">
+							<div class="testimonial-item">
+								<div class="testimonial-header">
+									<span class="testimonial-name">Irina Popova</span>
+									<span class="testimonial-stars">★★★★★</span>
+								</div>
+								<p>"Уникални, млади, кадърни и сърцати Доктори. От години водя животни спасени и излекувани. Чест и почитания на целия екип. Обичам ги. Страхотни са."</p>
+							</div>
+							<div class="testimonial-item">
+								<div class="testimonial-header">
+									<span class="testimonial-name">Ivelina Cholakova</span>
+									<span class="testimonial-stars">★★★★★</span>
+								</div>
+								<p>"Благодарим на Николай и Вяра за човешкото и професионално отношение! Препоръчам горещо!"</p>
+							</div>
+							<div class="testimonial-item">
+								<div class="testimonial-header">
+									<span class="testimonial-name">Stilyana Ngok-Zahariev</span>
+									<span class="testimonial-stars">★★★★★</span>
+								</div>
+								<p>"Изключително съм доволна от професионализма, топлото и лъчезарно отношение на екипа и в частност прекия ни лекуващ лекар д-р Христов! От три години водя зайчетата ми на прегледи в клиниката и съм абсолютно спокойна, че те са в добри ръце! Всеки път си тръгваме с усмивка на лицето!"</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<div class="back-to-top">
+			<div class="container">
+				<a class="btn btn-ghost back-to-top-btn" href="#home">
+					<span class="back-to-top-text">Обратно към началото</span>
+					<span class="back-to-top-arrow" aria-hidden="true">↑</span>
+				</a>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container footer-inner">
+				<div>
+					<strong>Ветеринарна клиника „Джаф и Мъри“</strong>
+					<div>С грижа към всеки пациент, всеки ден.</div>
+				</div>
+				<div>© 2026 Джаф и Мъри. Всички права запазени.</div>
+			</div>
+		</footer>
+
+		<script src="scripts.js"></script>
+	</body>
+</html>
